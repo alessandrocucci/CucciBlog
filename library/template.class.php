@@ -1,4 +1,13 @@
 <?php
+/**
+ *  Template Class
+ *
+ *  @author alessandro.cucci@gmail.com
+ *  @copyright 2015 - Alessandro Cucci - http://www.alessandrocucci.it
+ *  @version 0.1
+ *  @since 0.1
+ */
+
 class Template {
 
 	protected $variables = array();

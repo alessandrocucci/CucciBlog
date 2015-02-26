@@ -1,4 +1,12 @@
 <?php
+/**
+ *  SQLQuery Class
+ *
+ *  @author alessandro.cucci@gmail.com
+ *  @copyright 2015 - Alessandro Cucci - http://www.alessandrocucci.it
+ *  @version 0.1
+ *  @since 0.1
+ */
 
 class SQLQuery {
     protected $_dbHandle;
@@ -31,13 +39,13 @@ class SQLQuery {
         }
     }
     
-    function selectAll() {
-    	$query = 'select * from `'.$this->_table.'` order by art_data desc';
+    function selectAll($table = "posts") {
+    	$query = 'select * from `'.$table.'` order by art_data desc';
     	return $this->query($query);
     }
     
-    function select($id) {
-    	$query = 'select * from `'.$this->_table.'` where `art_id` = \''.mysql_real_escape_string($id).'\'';
+    function select($id, $table = "posts") {
+    	$query = 'select * from `'.$table.'` where `art_id` = \''.mysql_real_escape_string($id).'\'';
     	return $this->query($query, 1);    
     }
 
