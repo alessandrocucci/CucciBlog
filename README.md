@@ -6,6 +6,9 @@ Cucci Blog, come dice il nome, è una piccola piattaforma software di "personal 
 
   - Index in cui vengono visualizzate le anteprime degli articoli
   - Visualizzazione Articoli completi
+  - Backend
+      + Login Amministratore
+      + Creazione / Modifica / Eliminazione Articoli
 
   
 Cucci Blog è un progetto personale. Dovendo imparare velocemente a scrivere codice php ho preferito farlo su un progetto concreto piuttosto che studiare un manuale cartaceo. Avendo sul [mio sito] un blog in Wordpress utilizzato solo nelle sue funzioni base (scrittura/vilualizzazione articoli), volevo un cms più leggero, monoutente, e senza troppi fronzoli.
@@ -28,11 +31,12 @@ La piattaforma è in fase di *sviluppo*, testatelo a vostro rischio e pericolo.
 ### Todo's
 
 
- - Creazione backend admin con
-    - Login amministratore
-    - Visualizzazione lista articoli
-    - Possibilità di aggiungere/modificare/rimuovere articoli
+ - Sezione Backend
+    - Distinguere tra articoli in bozza e pubblicati
     - Modifica username e password
+ - Sezione Frontend
+    - Visualizzare solo articoli pubblicati
+    
  - Aggiungere SEO
  - Upload di un'immagine di copertina per l'articolo
  
